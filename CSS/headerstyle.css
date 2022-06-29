@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  font-family:Poppins, serif;
+}
+
+.navi{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 20px;
+}
+
+/*Quitar estilo opciones lista*/
+.navi li{
+  list-style: none;
+  color: #000;
+}
+
+/*Divisor para Cerrar Sesión*/
+.navi span{
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 1px;
+  height: auto;
+}
+
+.navi li a{
+  text-decoration: none;
+  color: #000;
+}

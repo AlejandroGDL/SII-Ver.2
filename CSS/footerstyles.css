@@ -1,0 +1,16 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.Media{
+  background-color: green;
+  color:
+  display: flex;
+  flex-direction: row;
+}
+
+.Footer_Container{
+  display: flex;
+}
